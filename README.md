@@ -12,9 +12,9 @@ Repository contains additional 4 scripts which contains functions for computatio
 If You are interested only in computing the BB, or COG, it is possible to source the BB_chaos_function.R and COG_chaos_function.R respectively. Functions "bb_chaos01" and "cog_chaos01" will be loaded into global environment.
 
 To run these scripts You need to install several other R packages:
-[microbenchmark](https://cran.r-project.org/web/packages/microbenchmark/index.html), [ggplot2](https://cran.r-project.org/web/packages/ggplot2/), [viridis](https://cran.r-project.org/web/packages/viridis/), [Chaos01](https://cran.r-project.org/web/packages/Chaos01/), and [zoo](https://cran.r-project.org/web/packages/zoo/)
+[microbenchmark](https://cran.r-project.org/web/packages/microbenchmark/index.html), [ggplot2](https://cran.r-project.org/web/packages/ggplot2/), [viridis](https://cran.r-project.org/web/packages/viridis/), [Chaos01](https://cran.r-project.org/web/packages/Chaos01/), [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html) and [zoo](https://cran.r-project.org/web/packages/zoo/)
 
 You can do this by running following command:
 ```r
- install.packages(c("microbenchmark", "ggplot2", "viridis", "Chaos01", "zoo"))
+ install.packages(c("microbenchmark", "ggplot2", "viridis", "Chaos01", "Rcpp", "zoo"))
  ```
